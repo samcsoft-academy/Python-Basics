@@ -19,6 +19,7 @@ def choose_difficulty():
     print("1. Easy (1-10)")
     print("2. Medium (1-100)")
     print("3. Hard (1-1000)")
+    print("4. Hard (1-2000)")
     level = get_valid_number("Enter 1, 2, or 3: ", 1, 3)
     if level == 1:
         return 1, 10
